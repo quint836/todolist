@@ -7,6 +7,7 @@ import androidx.room.Room;
 import com.arhiser.todolist.data.AppDatabase;
 import com.arhiser.todolist.data.NoteDao;
 //олвыалпдвлоп
+//олвыалпдвлоп
 
 public class App extends Application {
 
