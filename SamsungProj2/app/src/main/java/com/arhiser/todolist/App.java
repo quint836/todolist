@@ -9,6 +9,7 @@ import com.arhiser.todolist.data.NoteDao;
 //олвыалпдвлоп
 //олвыалпдвлоп
 //КЕКЕКЫЕ
+//ioiioioi
 
 public class App extends Application {
 
