@@ -7,6 +7,7 @@
         <item name="android:textColorPrimary">@color/colorPrimaryNight</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDarkNight</item>
         <item name="colorAccent">@color/colorAccentNight</item>
+        <item name="colorGrayNight">@color/colorGrayNight</item>
 
         <item name="android:windowBackground">@color/colorPrimaryNight</item>
         <item name="primaryTitleColor">@color/colorPrimaryNight</item>
