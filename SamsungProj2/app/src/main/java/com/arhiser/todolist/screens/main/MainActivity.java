@@ -13,6 +13,7 @@ import com.google.android.material.snackbar.Snackbar;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatDelegate;
 import androidx.appcompat.widget.Toolbar;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
@@ -24,6 +25,8 @@ import android.os.PersistableBundle;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.CompoundButton;
+import android.widget.Switch;
 import android.widget.Toast;
 
 import java.util.List;
@@ -32,6 +35,10 @@ public class MainActivity extends AppCompatActivity {
 
     private RecyclerView recyclerView;
 
+        public void main(String[] args){
+            SettingsActivity a = new SettingsActivity();
+            a.checkNightModeActivated();
+        }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

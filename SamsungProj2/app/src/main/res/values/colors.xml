@@ -7,5 +7,12 @@
     <color name="colorWhite">#FFFF</color>
     <color name="colorGray">#fafafa</color>
 
+    <color name="colorPrimaryNight">#313237</color>
+    <color name="colorPrimaryDarkNight">#2a2b2f</color>
+    <color name="colorAccentNight">#FFFFFF</color>
+    <color name="colorBlackNight">#FFFFFF</color>
+    <color name="colorWhiteNight">#000000</color>
+    <color name="colorGrayNight">#000000</color>
+
 
 </resources>
