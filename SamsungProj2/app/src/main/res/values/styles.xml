@@ -8,7 +8,8 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
 
-        <item name="primaryTitleColor">@color/colorPrimary</item>
+        <item name="primaryTitleColor">@color/colorAccent</item>
+        <item name="tabTextColor">@color/colorBlack</item>
     </style>
 
     <style name="AppTheme.NoActionBar">

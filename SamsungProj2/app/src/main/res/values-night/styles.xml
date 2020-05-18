@@ -9,7 +9,8 @@
         <item name="colorAccent">@color/colorAccentNight</item>
 
         <item name="android:windowBackground">@color/colorPrimaryNight</item>
-        <item name="primaryTitleColor">@color/colorPrimaryNight</item>
+        <item name="primaryTitleColor">@color/colorAccentNight</item>
+        <item name="tabTextColor">@color/colorBlackNight</item>
     </style>
 
     <style name="AppTheme.NoActionBar">

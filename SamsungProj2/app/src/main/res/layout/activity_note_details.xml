@@ -7,9 +7,10 @@
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
+        app:titleTextColor="@color/colorWhite"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
-        android:background="#fafafa"
+        android:background="?attr/colorPrimary"
         android:elevation="4dp"
         app:popupTheme="@style/AppTheme.PopupOverlay" />
 
@@ -17,6 +18,7 @@
         android:id="@+id/text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textColor="?attr/tabTextColor"
         android:hint="@string/note_text"
         android:minHeight="200dp"
         android:gravity="top"
