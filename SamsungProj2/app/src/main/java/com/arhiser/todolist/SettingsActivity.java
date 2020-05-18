@@ -37,10 +37,12 @@ public class SettingsActivity extends AppCompatActivity {
                 if(isChecked){
                     AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES);
                     saveNightModeState(true);
+                    getDelegate().applyDayNight();
                     recreate();
                 }else{
                     AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES);
                     saveNightModeState(false);
+                    getDelegate().applyDayNight();
                     recreate();;
                 }
             }
