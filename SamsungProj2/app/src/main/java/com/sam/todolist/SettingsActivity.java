@@ -1,9 +1,10 @@
-package com.arhiser.todolist;
+package com.sam.todolist;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.app.AppCompatDelegate;
 import androidx.appcompat.widget.Toolbar;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.os.Bundle;
@@ -12,6 +13,9 @@ import android.widget.CompoundButton;
 import android.widget.Switch;
 import android.widget.Toast;
 
+import com.sam.todolist.R;
+
+@SuppressLint("Registered")
 public class SettingsActivity extends AppCompatActivity {
 
     private Switch aSwitch;

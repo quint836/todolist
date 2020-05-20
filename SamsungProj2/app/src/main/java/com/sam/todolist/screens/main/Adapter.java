@@ -1,4 +1,4 @@
-package com.arhiser.todolist.screens.main;
+package com.sam.todolist.screens.main;
 
 import android.app.Activity;
 import android.graphics.Paint;
@@ -13,10 +13,10 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.recyclerview.widget.SortedList;
 
-import com.arhiser.todolist.App;
-import com.arhiser.todolist.R;
-import com.arhiser.todolist.model.Note;
-import com.arhiser.todolist.screens.details.NoteDetailsActivity;
+import com.sam.todolist.App;
+import com.sam.todolist.R;
+import com.sam.todolist.model.Note;
+import com.sam.todolist.screens.details.NoteDetailsActivity;
 
 import java.util.List;
 

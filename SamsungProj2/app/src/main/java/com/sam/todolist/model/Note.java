@@ -1,4 +1,4 @@
-package com.arhiser.todolist.model;
+package com.sam.todolist.model;
 
 import android.os.Parcel;
 import android.os.Parcelable;

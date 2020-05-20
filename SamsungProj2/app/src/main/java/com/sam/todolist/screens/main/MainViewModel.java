@@ -1,10 +1,10 @@
-package com.arhiser.todolist.screens.main;
+package com.sam.todolist.screens.main;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.ViewModel;
 
-import com.arhiser.todolist.App;
-import com.arhiser.todolist.model.Note;
+import com.sam.todolist.App;
+import com.sam.todolist.model.Note;
 
 import java.util.List;
 

@@ -1,19 +1,16 @@
-package com.arhiser.todolist.screens.main;
+package com.sam.todolist.screens.main;
 
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.content.res.Configuration;
 import android.os.Bundle;
 
-import com.arhiser.todolist.R;
-import com.arhiser.todolist.SettingsActivity;
-import com.arhiser.todolist.model.Note;
-import com.arhiser.todolist.screens.details.NoteDetailsActivity;
+import com.sam.todolist.R;
+import com.sam.todolist.SettingsActivity;
+import com.sam.todolist.model.Note;
+import com.sam.todolist.screens.details.NoteDetailsActivity;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
-import com.google.android.material.snackbar.Snackbar;
 
-import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.app.AppCompatDelegate;
@@ -24,13 +21,9 @@ import androidx.recyclerview.widget.DividerItemDecoration;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import android.os.PersistableBundle;
-import android.util.Log;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.widget.CompoundButton;
-import android.widget.Switch;
 import android.widget.Toast;
 
 import java.util.List;

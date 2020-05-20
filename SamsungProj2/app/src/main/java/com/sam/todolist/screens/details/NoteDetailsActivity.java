@@ -1,4 +1,4 @@
-package com.arhiser.todolist.screens.details;
+package com.sam.todolist.screens.details;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -12,9 +12,9 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
-import com.arhiser.todolist.App;
-import com.arhiser.todolist.R;
-import com.arhiser.todolist.model.Note;
+import com.sam.todolist.App;
+import com.sam.todolist.R;
+import com.sam.todolist.model.Note;
 
 public class NoteDetailsActivity extends AppCompatActivity {
 
