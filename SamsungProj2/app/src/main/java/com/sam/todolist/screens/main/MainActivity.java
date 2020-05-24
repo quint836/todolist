@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
         final Adapter adapter = new Adapter();
         recyclerView.setAdapter(adapter);
 
-        FloatingActionButton fab = findViewById(R.id.fab);
+        FloatingActionButton fab = findViewById(R.id.insert);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
