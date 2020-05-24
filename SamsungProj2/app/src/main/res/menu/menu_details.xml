@@ -3,11 +3,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="com.arhiser.todolist.screens.main.MainActivity">
     <item
-        android:id="@+id/action_time"
-        android:icon="@drawable/ic_access_alarm_black_24dp"
-        android:title="time"
-        app:showAsAction="always" />
-    <item
         android:id="@+id/action_save"
         android:title="@string/save"
         app:showAsAction="always"
